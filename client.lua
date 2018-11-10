@@ -27,7 +27,7 @@ Citizen.CreateThread(function()
 					Gun = GetSelectedPedWeapon(Player)
 					TaskPlayAnim(Player, "missminuteman_1ig_2", "handsup_base", 1.0, -8, -1, 50, 0, 0, 0, 0)
 						if Gun ~= NoWep then
-							SetPedDropsInventoryWeapon(Player, Gun, 0, -2.5, 1, 0)
+							SetPedDropsInventoryWeapon(Player, Gun, 0, -2.5, 1, -1) -- -1 = no ammo
 							GiveWeaponToPed(Player, NoWep, 0, 0, 1)
 						end
 				end
