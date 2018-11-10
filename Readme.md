@@ -3,9 +3,9 @@ PlayerDisarm
 [desc]
 Disarm the player's weapon and surrender with hands up.
 [Use]
-Place folder 'playerdisarm-master' in to FXServer resource folder.
-Rename folder 'playerdisarm-master' to 'playerdisarm'.
-Append server config (def. server.cfg) with 'Start playerdisarm'.
+Place folder 'Player-Disarm-Master' in to FXServer resource folder.
+Rename folder 'Player-Disarm-master' into 'Player-Disarm'.
+Append server config (def. server.cfg) with 'Start Player-Disarm'.
 Script is non-dependant on boot order.
 Hold X to disarm.
 [Author]
